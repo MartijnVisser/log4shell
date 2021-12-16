@@ -30,145 +30,145 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 
 ### A
 
-| Supplier        | Product         | Version (see Status) | Status          | Notes           | Links |
-|:----------------|:----------------|:--------------------:|:---------------:|:----------------|-----------:|
-| ABB | Alarminsight Cloud | | Investigation | Potentially affected as per the advisory | [source](https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&LanguageCode=en&DocumentPartId=&Action=Launch)
-| Accellence Technologies | vimacc | All | Not vuln | | [source](https://www.accellence.de/en/articles/cve-2021-44228-62)
-| Accellence Technologies | EB&#220;S | All | Workaround | EB&#220;S itself is not vulnerable to CVE-2021-44228. Although it includes several 3rd-partie software setups, which may be affected (see source for more info). | [source](https://www.accellence.de/en/articles/cve-2021-44228-62)
-| Acronis       | All |  | Investigation | See further information below| [source](https://security-advisory.acronis.com/advisories/SEC-3859)
-| Acronis       | Cyber Backup | 12.5 | Not vuln | | [source](https://security-advisory.acronis.com/advisories/SEC-3859)
-| Acronis       | Cyber Files | 8.6.2 onwards | Not vuln | | [source](https://security-advisory.acronis.com/advisories/SEC-3859)
-| Acronis       | Cyber Infrastrcuture | 3.5 and 4.x  | Not vuln | | [source](https://security-advisory.acronis.com/advisories/SEC-3859)
-| Acronis       | Cyber Protection Home Office | 2017 onwards | Not vuln | | [source](https://security-advisory.acronis.com/advisories/SEC-3859) |
-| Acunetix | 360 | All | Not Vuln | | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
-| Acunetix | Application | All | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
-| Acunetix | Agents | All | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
-| Acunetix | IAST: NodeJS | All | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
-| Acunetix | IAST: ASP. NET | All | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
-| Acunetix | IAST: PHP | All | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
-| Acunetix | IAST: Java | All | Workaround| AcuSensor IAST module needs attention | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
-| Adobe         | Acrobate Reader | | Not Vuln | | [source](https://community.adobe.com/t5/acrobat-discussions/acrobat-affected-by-apache-log4j-vulnerability-cve-2021-44228/td-p/12590329?profile.language=fr) |
-| Adobe         | All | | Investigation | | [source](https://helpx.adobe.com/security/products/log4j-2-advisory.html) |
-| Adobe         | Cold Fusion | All | Vulnerable | Fix planned for Dec 17th | [source](https://helpx.adobe.com/coldfusion/kb/log4j-vulnerability-coldfusion.html) |
-| ADP           | All | | Investigation | Patching were needed, no signs of intrusion | [source](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228-update.aspx) |
-| AFAS | All | | Not vuln | | [source](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) |
-| Ahsay | Mobile | version 1.6+ | Not vuln | | [source](https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j) |
-| Ahsay | Other products | version 8.5.4.86 (and above) | Not vuln | | [source](https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j) |
-| Ahsay | AhsayPRD | version 2.0 | Not vuln | | [source](https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j) |
-| Aiden | all | all | Not vuln | | [source](https://www.meetaiden.com/knowledge-base/is-aiden-vulnerable-to-cve-2021-44228-log4j-log4shell/) |
-| AIL           | AIL | all | Not vuln | | [source](https://twitter.com/ail_project/status/1470373644279119875)
-| Alexion Software | Alexion CRM | All | Not vuln | | [source](https://alexion.nl/blog/alexion-crm-niet-vatbaar-voor-log4shell)
-| Akamai        | Eanterprise Application Access Connector |  | Not vulnerable |  | Source: Akamai support |
-| Akamai        | Siem Splunk Connector | =>1.4.10 | Not vuln |  | [source](https://community.akamai.com/customers/s/feed/0D54R00008Osz7sSAB) (paywall) |
-| Akamai        | Siem Splunk Connector | <1.4.10 | Workaround | Akamai SIEM Integration Connector for Splunk is not vulnerable to CVE-2021-44228. Although it includes the vulnerable Log4J component, it is not used by the connector. | [source](https://github.com/akamai/siem-splunk-connector) |
-| Alertus        | Console              | 5.15.0| Fix | | [source](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US)
-| Alphatron        | AMiSconnect | | Not Vuln | | [source](https://www.alphatronmedical.com/home.html) |
-| Alphatron        | Custo diagnostics  | 5.4 to 5.6 | Vuln | Potentially vulnerable through the HL7 and DICOM communication interfaces | [source](https://www.alphatronmedical.com/home.html) |
-| Alphatron        | JiveX | | Not Vuln | | [source](https://www.alphatronmedical.com/home.html) |
-| Alphatron        | Zorgbericht | | Not Vuln | | [source](https://www.alphatronmedical.com/home.html) |
-| Amazon        | AMS | | Fix | Work in progress, portion of customers may still be vulnerable. Actively monitoring this issue, and are working on addressing it for any AMS services which use Log4j2 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | API Gateway | | Fix | All hosts now patched |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS CloudHSM | 3.4.1 | Fix | CloudHSM JCE SDK 3.4.1 or higher is not vulnerable |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS Directory Service | | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS Elastic Beanstalk | | Not vuln | Default configuration of application's usage of Log4j versions is not vulnerable |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS Glue | | Fix | Has been updated. Vulnerable only if ETL jobs load affected versions of Apache Log4j |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS Greengrass | | Fix | Updates for all Greengrass V2 components Stream Manager (2.0.14) and Secure Tunneling (1.0.6) are available. For Greengrass versions 1.10.x and 1.11.x, an update for the Stream Manager feature is included in Greengrass patch versions 1.10.5 and 1.11.5 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS IoT SiteWise Edge | | Fix | Updates for all AWS IoT SiteWise Edge components that use Log4j were made available; OPC-UA collector (v2.0.3), Data processing pack (v2.0.14), and Publisher (v2.0.2) |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS KMS | | Fix | AWS KMS has been updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS Lambda | | Fix | Vulnerable when using aws-lambda-java-log4j2 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS SDK | | Not vuln | |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | AWS Secrets Manager | | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Cloud Directory | | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | CloudFront | | Fix | CloudFront services have been updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | CloudWatch | | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Connect | | Fix | Connect services have been updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | DocumentDB | | Fix | Patched to mitigate the Log4j issue referenced in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | DynamoDB | | Fix | DynamoDB and DynamoDB Accelerator have been updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | EC2 || Fix | Packages for Amazon Linux 1 and 2 not affected, package for Amazon Linux 2022 is |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/), [fix](https://alas.aws.amazon.com/cve/html/CVE-2021-44228.html) |
-| Amazon        | ElastiCache || Fix | Amazon ElastiCache completed patching the Apache Log4j2 issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | EMR | | Not vuln | Vulnerable only if affected EMR releases are used and untrusted sources are configured to be processed |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Inspector Classic | | Fix | Patched against the Log4j issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Inspector | | Fix | Patched against the Log4j issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Kafka (MSK) | | Fix | Applying updates as required, portion of customers may still be vulnerable. Some MSK-specific service components use Log4j > 2.0.0 library and are being patched where needed |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Keyspaces (for Apache Cassandra) | | Fix | Has been updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Kinesis Data Analytics | | Fix | Updates are available. See source for more information |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Kinesis Data Streams | | Fix | KCL 2.x, KCL 1.14.5 or higher, and KPL are not vulnerable |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Kinesis | | Fix | Update for Kinesis Agent is available |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Lake Formation | | Fix | Update in progress, portion of customers may still be vulnerable. AWS Lake Formation service hosts are being updated to the latest version of Log4j |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Managed Workflows for Apache Airflow (MWAA) | | Fix | Completed all required updates to the MWAA service code to address the issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | MemoryDB for Redis | | Fix | Amazon MemoryDB for Redis completed patching the Apache Log4j2 issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | MQ | | Fix | All required updates have been completed |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Neptune | | Fix | All active Amazon Neptune clusters have been automatically updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | NICE | | Fix | Recommended to update EnginFrame or Log4j library |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | OpenSearch | R20211203-P2 | Fix | Update released, customers need to update their clusters to the fixed release |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | RDS for Oracle | | Fix | Amazon RDS Oracle has updated the version of Log4j2 in use within the service |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | RDS | | Fix | Update in progress, portion of customers may still be vulnerable. Amazon RDS and Amazon Aurora are actively addressing all service usage of Log4j2 by applying updates |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Redshift | | Fix | Amazon Redshift clusters have been automatically updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | S3| | Fix | All S3 systems are patched |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Simple Notification Service (SNS) | | Fix | Systems that serve customer traffic are patched against the Log4j2 issue. Working to apply the patch to sub-systems that operate separately from SNS’s systems that serve customer traffic. |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Simple Queue Service (SQS) | | Fix | Completed patching. |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Simple Workflow Service (SWF) | | Fix | Amazon Simple Workflow Service (SWF) has been updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Single Sign-On | | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Step Functions | | Fix | AWS Step Functions has been updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | Timestream | | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| Amazon        | WorkSpaces/AppStream 2.0 | | Fix | Not affected by CVE-2021-44228 with default configurations. WorkDocs Sync client versions 1.2.895.1 and older within Windows WorkSpaces, which contain the Log4j component, are vulnerable; For update instruction, see source for more info |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
-| AOMEI         | All Products | | Not Vuln | | [source](https://www.aomeitech.com/forum/index.php?p=/discussion/7651/aomei-and-log4j) |   
-| Apache        | Archiva | <2.2.6 | Fix | Fixed in 2.2.6 | [source](https://blogs.apache.org/security/entry/cve-2021-44228), [fix](https://lists.apache.org/thread/bmvhs0jxhf4vxcjxyhozm058pchykcqx) |
-| Apache        | Camel | all | Not vuln | |[source](https://camel.apache.org/blog/2021/12/log4j2/) |
-| Apache        | Cassandra | all | Not vuln | |[source](https://lists.apache.org/thread/2rngylxw8bjos6xbo1krp29m9wn2hhdr) |
-| Apache        | Druid | 0.22.1 | Fix | |[source](https://github.com/apache/druid/pull/12051) |
-| Apache        | Dubbo | All versions | Fix | |[source](https://github.com/apache/dubbo/issues/9380) |
-| Apache        | Flink | 1.15.0, 1.14.1, 1.13.4 | Fix | |[source](https://issues.apache.org/jira/browse/FLINK-25240) |
-| Apache        | Fortress | < 2.0.7 | Fix | Fixed in 2.0.7 | [source](https://blogs.apache.org/security/entry/cve-2021-44228)|
-| Apache        | Geode | 1.14.0 | Fix | Fixed in 1.12.6, 1.13.5, 1.14.1 |[source](https://cwiki.apache.org/confluence/plugins/servlet/mobile?contentId=66849544#ReleaseNotes-1.14.1) |
-| Apache        | Hadoop | Unknown | Not vuln | Uses log4j 1.x. Are [plans to migrate to log4j2](https://issues.apache.org/jira/plugins/servlet/mobile#issue/HADOOP-12956) but never performed | [source](https://blogs.apache.org/security/entry/cve-2021-44228) |
-| Apache        | HBase | Unknown | Vulnerable | Fix is committed, but not yet released |[source](https://github.com/apache/hbase/pull/3933) |
-| Apache        | Hive | 4.x | Fix | Fix in 4.x | [source](https://issues.apache.org/jira/browse/HIVE-25795) |
-| Apache        | James | 3.6.0 | Vulnerable |  |[source](https://twitter.com/dlitchfield/status/1469809966785564675) |
-| Apache        | Jena | < 4.3.1 | Fix | Fixed in 4.3.1 |[source](https://blogs.apache.org/security/entry/cve-2021-44228)|
-| Apache        | JMeter | Any | Vulnerable| Manual Bypass |[source](https://github.com/apache/jmeter/pull/680#issuecomment-993204248)|
-| Apache        | JSPWiki | 2.11.1 | Fix | |[source](https://jspwiki-wiki.apache.org/Wiki.jsp?page=Log4J-CVE-2021-44228) |
-| Apache        | Kafka | All versions | Not vuln | Uses log4j 1.x |[source](https://lists.apache.org/thread/lgbtvvmy68p0059yoyn9qxzosdmx4jdv) |
-| Apache        | Karaf | Unknown | Vulnerable | Depends on [PAX logging](https://github.com/ops4j/org.ops4j.pax.logging/issues/414) which is affected |[source](https://mail-archives.apache.org/mod_mbox/karaf-dev/202112.mbox/browser) |
-| Apache        | Log4j | 2.16.0 | Fix | |[source](https://logging.apache.org/log4j/2.x/security.html) |
-| Apache        | Maven | All Versions | Not Vuln |  |[source](https://blogs.apache.org/security/entry/cve-2021-44228)
-| Apache        | NiFi | All Versions| Fix | Fixed in 1.15.1, 1.16.0 | [source](https://issues.apache.org/jira/browse/NIFI-9474) |
-| Apache        | OFBiz | < 18.12.03 | Fix | Fixed in 18.12.03 | [source](https://blogs.apache.org/security/entry/cve-2021-44228) |
-| Apache        | Ozone | < 1.2.1 | Fix | Fixed in 1.2.1 | [source](https://blogs.apache.org/security/entry/cve-2021-44228) |
-| Apache        | SkyWalking | < 8.9.1 | Fix | Fixed in 8.9.1 | [source](https://blogs.apache.org/security/entry/cve-2021-44228) |
-| Apache        | SOLR | 7.4.0 to 7.7.3, 8.0.0 to 8.11.0 | Fix | Fixed in 8.11.1, Versions before 7.4 also vulnerable when using several configurations |[source](https://solr.apache.org/security.html#apache-solr-affected-by-apache-log4j-cve-2021-44228) |
-| Apache        | Spark | All versions | Not vuln | Uses log4j 1.x |[source](https://lists.apache.org/thread/wwm13b9764vjms5t8n96j6jklys49cyr) |
-| Apache        | Struts | 2.5.28 | Vulnerable |  |[source](https://struts.apache.org/announce-2021#a20211212-2) |
-| Apache        | Tapestry | 5.7.3 | Vulnerable | Uses Log4j |[source](https://tapestry.apache.org/logging.html) |
-| Apache        | Tika | 2.0.0 and up | Vulnerable | |[source](https://tika.apache.org/2.0.0/index.html) |
-| Apache        | Tomcat|| Not vuln|| [source](https://tomcat.apache.org/tomcat-9.0-doc/logging.html) |
-| Apache        | TrafficControl | | Vulnerable | | [source](https://blogs.apache.org/security/entry/cve-2021-44228)|
-| Apache        | Zookeeper|| Not vuln| Zookeeper uses Log4j 1.2 version | [source](https://issues.apache.org/jira/browse/ZOOKEEPER-4423) |
-| APC           | PowerChute Business Edition | Unknow to 10.0.2.301 | Vulnerable |  |  |
-| APC           | PowerChute Network Shutdown | Unknow to 4.2.0 | Vulnerable |  |  |
-| Apereo        | CAS | 6.3.x & 6.4.x | Fix | Other versions still in active maintainance might need manual inspection |[source](https://apereo.github.io/2021/12/11/log4j-vuln/) |
-| Apereo        | Opencast | < 9.10, < 10.6 | Fix | |[source](https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8) |
-| Apigee        | Edge and OPDK products | All version | Not vuln | |[source](https://status.apigee.com/incidents/3cgzb0q2r10p) | 
-| Appian        | Appian | | Fix | | [source](https://community.appian.com/support/w/kb/2511/kb-2204-information-about-the-log4j2-security-vulnerability-cve-2021-44228) |
-| Aptible       | Aptible | Search 5.x | Fix | | [source](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) |
-| Arduino        | Arduino IDE | 1.8.17 | Fix | | [source](https://support.arduino.cc/hc/en-us/articles/4412377144338-Arduino-s-response-to-Log4j2-vulnerability-CVE-2021-44228) |
-| Arista Networks | CloudVision Portal | >2019.1.0 | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
-| Arista Networks | CloudVision Wi-Fi, virtual appliance or physical appliance | >8.8 | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
-| Arista Networks | Analytics Node for DANZ Monitoring Fabric (formerly Big Monitoring Fabric) | >7.0.0 | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
-| Arista Networks | Analytics Node for Converged Cloud Fabric (formerly Big Cloud Fabric) | >7.0.0 | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
-| Arista Networks | Embedded Analytics for Converged Cloud Fabric (formerly Big Cloud Fabric) | >5.3.0 | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
-| Arista Networks | CloudVision Portal | >2019.1.0 | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
-| Arista Networks | CloudVision Wi-Fi, virtual appliance or physical appliance | >8.8 | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
-| Atlassian     | Bamboo Server & Data Center | On prem | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
-| Atlassian     | BitBucket Server | On prem | Workaround | | [source](https://community.atlassian.com/t5/Bamboo-questions/Re-log4j-zero-day/qaq-p/1886739/comment-id/30819#M30819)
-| Atlassian     | Confluence Server & Data Center| On prem | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
-| Atlassian     | Crowd Server & Data Center | On prem | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
-| Atlassian     | Crucible | On prem | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
-| Atlassian     | Fisheye | On prem | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
-| Atlassian     | Jira Server & Data Center | On prem | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
-| Avaya         | | | | | [source](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) |
+| Supplier        | Product         |               Version (see Status)                | Status          | Notes           | Links |
+|:----------------|:----------------|:-------------------------------------------------:|:---------------:|:----------------|-----------:|
+| ABB | Alarminsight Cloud |                                                   | Investigation | Potentially affected as per the advisory | [source](https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&LanguageCode=en&DocumentPartId=&Action=Launch)
+| Accellence Technologies | vimacc |                        All                        | Not vuln | | [source](https://www.accellence.de/en/articles/cve-2021-44228-62)
+| Accellence Technologies | EB&#220;S |                        All                        | Workaround | EB&#220;S itself is not vulnerable to CVE-2021-44228. Although it includes several 3rd-partie software setups, which may be affected (see source for more info). | [source](https://www.accellence.de/en/articles/cve-2021-44228-62)
+| Acronis       | All |                                                   | Investigation | See further information below| [source](https://security-advisory.acronis.com/advisories/SEC-3859)
+| Acronis       | Cyber Backup |                       12.5                        | Not vuln | | [source](https://security-advisory.acronis.com/advisories/SEC-3859)
+| Acronis       | Cyber Files |                   8.6.2 onwards                   | Not vuln | | [source](https://security-advisory.acronis.com/advisories/SEC-3859)
+| Acronis       | Cyber Infrastrcuture |                    3.5 and 4.x                    | Not vuln | | [source](https://security-advisory.acronis.com/advisories/SEC-3859)
+| Acronis       | Cyber Protection Home Office |                   2017 onwards                    | Not vuln | | [source](https://security-advisory.acronis.com/advisories/SEC-3859) |
+| Acunetix | 360 |                        All                        | Not Vuln | | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
+| Acunetix | Application |                        All                        | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
+| Acunetix | Agents |                        All                        | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
+| Acunetix | IAST: NodeJS |                        All                        | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
+| Acunetix | IAST: ASP. NET |                        All                        | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
+| Acunetix | IAST: PHP |                        All                        | Not Vuln |   | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
+| Acunetix | IAST: Java |                        All                        | Workaround| AcuSensor IAST module needs attention | [source](https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/)  |
+| Adobe         | Acrobate Reader |                                                   | Not Vuln | | [source](https://community.adobe.com/t5/acrobat-discussions/acrobat-affected-by-apache-log4j-vulnerability-cve-2021-44228/td-p/12590329?profile.language=fr) |
+| Adobe         | All |                                                   | Investigation | | [source](https://helpx.adobe.com/security/products/log4j-2-advisory.html) |
+| Adobe         | Cold Fusion |                        All                        | Vulnerable | Fix planned for Dec 17th | [source](https://helpx.adobe.com/coldfusion/kb/log4j-vulnerability-coldfusion.html) |
+| ADP           | All |                                                   | Investigation | Patching were needed, no signs of intrusion | [source](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228-update.aspx) |
+| AFAS | All |                                                   | Not vuln | | [source](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) |
+| Ahsay | Mobile |                   version 1.6+                    | Not vuln | | [source](https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j) |
+| Ahsay | Other products |           version 8.5.4.86 (and above)            | Not vuln | | [source](https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j) |
+| Ahsay | AhsayPRD |                    version 2.0                    | Not vuln | | [source](https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j) |
+| Aiden | all |                        all                        | Not vuln | | [source](https://www.meetaiden.com/knowledge-base/is-aiden-vulnerable-to-cve-2021-44228-log4j-log4shell/) |
+| AIL           | AIL |                        all                        | Not vuln | | [source](https://twitter.com/ail_project/status/1470373644279119875)
+| Alexion Software | Alexion CRM |                        All                        | Not vuln | | [source](https://alexion.nl/blog/alexion-crm-niet-vatbaar-voor-log4shell)
+| Akamai        | Eanterprise Application Access Connector |                                                   | Not vulnerable |  | Source: Akamai support |
+| Akamai        | Siem Splunk Connector |                     =>1.4.10                      | Not vuln |  | [source](https://community.akamai.com/customers/s/feed/0D54R00008Osz7sSAB) (paywall) |
+| Akamai        | Siem Splunk Connector |                      <1.4.10                      | Workaround | Akamai SIEM Integration Connector for Splunk is not vulnerable to CVE-2021-44228. Although it includes the vulnerable Log4J component, it is not used by the connector. | [source](https://github.com/akamai/siem-splunk-connector) |
+| Alertus        | Console              |                      5.15.0                       | Fix | | [source](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US)
+| Alphatron        | AMiSconnect |                                                   | Not Vuln | | [source](https://www.alphatronmedical.com/home.html) |
+| Alphatron        | Custo diagnostics  |                    5.4 to 5.6                     | Vuln | Potentially vulnerable through the HL7 and DICOM communication interfaces | [source](https://www.alphatronmedical.com/home.html) |
+| Alphatron        | JiveX |                                                   | Not Vuln | | [source](https://www.alphatronmedical.com/home.html) |
+| Alphatron        | Zorgbericht |                                                   | Not Vuln | | [source](https://www.alphatronmedical.com/home.html) |
+| Amazon        | AMS |                                                   | Fix | Work in progress, portion of customers may still be vulnerable. Actively monitoring this issue, and are working on addressing it for any AMS services which use Log4j2 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | API Gateway |                                                   | Fix | All hosts now patched |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS CloudHSM |                       3.4.1                       | Fix | CloudHSM JCE SDK 3.4.1 or higher is not vulnerable |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS Directory Service |                                                   | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS Elastic Beanstalk |                                                   | Not vuln | Default configuration of application's usage of Log4j versions is not vulnerable |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS Glue |                                                   | Fix | Has been updated. Vulnerable only if ETL jobs load affected versions of Apache Log4j |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS Greengrass |                                                   | Fix | Updates for all Greengrass V2 components Stream Manager (2.0.14) and Secure Tunneling (1.0.6) are available. For Greengrass versions 1.10.x and 1.11.x, an update for the Stream Manager feature is included in Greengrass patch versions 1.10.5 and 1.11.5 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS IoT SiteWise Edge |                                                   | Fix | Updates for all AWS IoT SiteWise Edge components that use Log4j were made available; OPC-UA collector (v2.0.3), Data processing pack (v2.0.14), and Publisher (v2.0.2) |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS KMS |                                                   | Fix | AWS KMS has been updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS Lambda |                                                   | Fix | Vulnerable when using aws-lambda-java-log4j2 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS SDK |                                                   | Not vuln | |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | AWS Secrets Manager |                                                   | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Cloud Directory |                                                   | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | CloudFront |                                                   | Fix | CloudFront services have been updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | CloudWatch |                                                   | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Connect |                                                   | Fix | Connect services have been updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | DocumentDB |                                                   | Fix | Patched to mitigate the Log4j issue referenced in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | DynamoDB |                                                   | Fix | DynamoDB and DynamoDB Accelerator have been updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | EC2 ||                        Fix                        | Packages for Amazon Linux 1 and 2 not affected, package for Amazon Linux 2022 is |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/), [fix](https://alas.aws.amazon.com/cve/html/CVE-2021-44228.html) |
+| Amazon        | ElastiCache ||                        Fix                        | Amazon ElastiCache completed patching the Apache Log4j2 issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | EMR |                                                   | Not vuln | Vulnerable only if affected EMR releases are used and untrusted sources are configured to be processed |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Inspector Classic |                                                   | Fix | Patched against the Log4j issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Inspector |                                                   | Fix | Patched against the Log4j issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Kafka (MSK) |                                                   | Fix | Applying updates as required, portion of customers may still be vulnerable. Some MSK-specific service components use Log4j > 2.0.0 library and are being patched where needed |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Keyspaces (for Apache Cassandra) |                                                   | Fix | Has been updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Kinesis Data Analytics |                                                   | Fix | Updates are available. See source for more information |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Kinesis Data Streams |                                                   | Fix | KCL 2.x, KCL 1.14.5 or higher, and KPL are not vulnerable |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Kinesis |                                                   | Fix | Update for Kinesis Agent is available |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Lake Formation |                                                   | Fix | Update in progress, portion of customers may still be vulnerable. AWS Lake Formation service hosts are being updated to the latest version of Log4j |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Managed Workflows for Apache Airflow (MWAA) |                                                   | Fix | Completed all required updates to the MWAA service code to address the issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | MemoryDB for Redis |                                                   | Fix | Amazon MemoryDB for Redis completed patching the Apache Log4j2 issue |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | MQ |                                                   | Fix | All required updates have been completed |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Neptune |                                                   | Fix | All active Amazon Neptune clusters have been automatically updated |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | NICE |                                                   | Fix | Recommended to update EnginFrame or Log4j library |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | OpenSearch |                   R20211203-P2                    | Fix | Update released, customers need to update their clusters to the fixed release |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | RDS for Oracle |                                                   | Fix | Amazon RDS Oracle has updated the version of Log4j2 in use within the service |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | RDS |                                                   | Fix | Update in progress, portion of customers may still be vulnerable. Amazon RDS and Amazon Aurora are actively addressing all service usage of Log4j2 by applying updates |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Redshift |                                                   | Fix | Amazon Redshift clusters have been automatically updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | S3|                                                   | Fix | All S3 systems are patched |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Simple Notification Service (SNS) |                                                   | Fix | Systems that serve customer traffic are patched against the Log4j2 issue. Working to apply the patch to sub-systems that operate separately from SNS’s systems that serve customer traffic. |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Simple Queue Service (SQS) |                                                   | Fix | Completed patching. |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Simple Workflow Service (SWF) |                                                   | Fix | Amazon Simple Workflow Service (SWF) has been updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Single Sign-On |                                                   | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Step Functions |                                                   | Fix | AWS Step Functions has been updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | Timestream |                                                   | Fix | Updated to mitigate the issues identified in CVE-2021-44228 |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| Amazon        | WorkSpaces/AppStream 2.0 |                                                   | Fix | Not affected by CVE-2021-44228 with default configurations. WorkDocs Sync client versions 1.2.895.1 and older within Windows WorkSpaces, which contain the Log4j component, are vulnerable; For update instruction, see source for more info |[source](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |
+| AOMEI         | All Products |                                                   | Not Vuln | | [source](https://www.aomeitech.com/forum/index.php?p=/discussion/7651/aomei-and-log4j) |   
+| Apache        | Archiva |                      <2.2.6                       | Fix | Fixed in 2.2.6 | [source](https://blogs.apache.org/security/entry/cve-2021-44228), [fix](https://lists.apache.org/thread/bmvhs0jxhf4vxcjxyhozm058pchykcqx) |
+| Apache        | Camel |                        all                        | Not vuln | |[source](https://camel.apache.org/blog/2021/12/log4j2/) |
+| Apache        | Cassandra |                        all                        | Not vuln | |[source](https://lists.apache.org/thread/2rngylxw8bjos6xbo1krp29m9wn2hhdr) |
+| Apache        | Druid |                      0.22.1                       | Fix | |[source](https://github.com/apache/druid/pull/12051) |
+| Apache        | Dubbo |                   All versions                    | Fix | |[source](https://github.com/apache/dubbo/issues/9380) |
+| Apache        | Flink |       1.15.0, 1.14.2, 1.13.5, 1.12.7, 1.11.6       | Fix | |[source](https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html) |
+| Apache        | Fortress |                      < 2.0.7                      | Fix | Fixed in 2.0.7 | [source](https://blogs.apache.org/security/entry/cve-2021-44228)|
+| Apache        | Geode |                      1.14.0                       | Fix | Fixed in 1.12.6, 1.13.5, 1.14.1 |[source](https://cwiki.apache.org/confluence/plugins/servlet/mobile?contentId=66849544#ReleaseNotes-1.14.1) |
+| Apache        | Hadoop |                      Unknown                      | Not vuln | Uses log4j 1.x. Are [plans to migrate to log4j2](https://issues.apache.org/jira/plugins/servlet/mobile#issue/HADOOP-12956) but never performed | [source](https://blogs.apache.org/security/entry/cve-2021-44228) |
+| Apache        | HBase |                      Unknown                      | Vulnerable | Fix is committed, but not yet released |[source](https://github.com/apache/hbase/pull/3933) |
+| Apache        | Hive |                        4.x                        | Fix | Fix in 4.x | [source](https://issues.apache.org/jira/browse/HIVE-25795) |
+| Apache        | James |                       3.6.0                       | Vulnerable |  |[source](https://twitter.com/dlitchfield/status/1469809966785564675) |
+| Apache        | Jena |                      < 4.3.1                      | Fix | Fixed in 4.3.1 |[source](https://blogs.apache.org/security/entry/cve-2021-44228)|
+| Apache        | JMeter |                        Any                        | Vulnerable| Manual Bypass |[source](https://github.com/apache/jmeter/pull/680#issuecomment-993204248)|
+| Apache        | JSPWiki |                      2.11.1                       | Fix | |[source](https://jspwiki-wiki.apache.org/Wiki.jsp?page=Log4J-CVE-2021-44228) |
+| Apache        | Kafka |                   All versions                    | Not vuln | Uses log4j 1.x |[source](https://lists.apache.org/thread/lgbtvvmy68p0059yoyn9qxzosdmx4jdv) |
+| Apache        | Karaf |                      Unknown                      | Vulnerable | Depends on [PAX logging](https://github.com/ops4j/org.ops4j.pax.logging/issues/414) which is affected |[source](https://mail-archives.apache.org/mod_mbox/karaf-dev/202112.mbox/browser) |
+| Apache        | Log4j |                      2.16.0                       | Fix | |[source](https://logging.apache.org/log4j/2.x/security.html) |
+| Apache        | Maven |                   All Versions                    | Not Vuln |  |[source](https://blogs.apache.org/security/entry/cve-2021-44228)
+| Apache        | NiFi |                   All Versions                    | Fix | Fixed in 1.15.1, 1.16.0 | [source](https://issues.apache.org/jira/browse/NIFI-9474) |
+| Apache        | OFBiz |                    < 18.12.03                     | Fix | Fixed in 18.12.03 | [source](https://blogs.apache.org/security/entry/cve-2021-44228) |
+| Apache        | Ozone |                      < 1.2.1                      | Fix | Fixed in 1.2.1 | [source](https://blogs.apache.org/security/entry/cve-2021-44228) |
+| Apache        | SkyWalking |                      < 8.9.1                      | Fix | Fixed in 8.9.1 | [source](https://blogs.apache.org/security/entry/cve-2021-44228) |
+| Apache        | SOLR |          7.4.0 to 7.7.3, 8.0.0 to 8.11.0          | Fix | Fixed in 8.11.1, Versions before 7.4 also vulnerable when using several configurations |[source](https://solr.apache.org/security.html#apache-solr-affected-by-apache-log4j-cve-2021-44228) |
+| Apache        | Spark |                   All versions                    | Not vuln | Uses log4j 1.x |[source](https://lists.apache.org/thread/wwm13b9764vjms5t8n96j6jklys49cyr) |
+| Apache        | Struts |                      2.5.28                       | Vulnerable |  |[source](https://struts.apache.org/announce-2021#a20211212-2) |
+| Apache        | Tapestry |                       5.7.3                       | Vulnerable | Uses Log4j |[source](https://tapestry.apache.org/logging.html) |
+| Apache        | Tika |                   2.0.0 and up                    | Vulnerable | |[source](https://tika.apache.org/2.0.0/index.html) |
+| Apache        | Tomcat||                     Not vuln                      || [source](https://tomcat.apache.org/tomcat-9.0-doc/logging.html) |
+| Apache        | TrafficControl |                                                   | Vulnerable | | [source](https://blogs.apache.org/security/entry/cve-2021-44228)|
+| Apache        | Zookeeper||                     Not vuln                      | Zookeeper uses Log4j 1.2 version | [source](https://issues.apache.org/jira/browse/ZOOKEEPER-4423) |
+| APC           | PowerChute Business Edition |               Unknow to 10.0.2.301                | Vulnerable |  |  |
+| APC           | PowerChute Network Shutdown |                  Unknow to 4.2.0                  | Vulnerable |  |  |
+| Apereo        | CAS |                   6.3.x & 6.4.x                   | Fix | Other versions still in active maintainance might need manual inspection |[source](https://apereo.github.io/2021/12/11/log4j-vuln/) |
+| Apereo        | Opencast |                  < 9.10, < 10.6                   | Fix | |[source](https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8) |
+| Apigee        | Edge and OPDK products |                    All version                    | Not vuln | |[source](https://status.apigee.com/incidents/3cgzb0q2r10p) | 
+| Appian        | Appian |                                                   | Fix | | [source](https://community.appian.com/support/w/kb/2511/kb-2204-information-about-the-log4j2-security-vulnerability-cve-2021-44228) |
+| Aptible       | Aptible |                    Search 5.x                     | Fix | | [source](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) |
+| Arduino        | Arduino IDE |                      1.8.17                       | Fix | | [source](https://support.arduino.cc/hc/en-us/articles/4412377144338-Arduino-s-response-to-Log4j2-vulnerability-CVE-2021-44228) |
+| Arista Networks | CloudVision Portal |                     >2019.1.0                     | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
+| Arista Networks | CloudVision Wi-Fi, virtual appliance or physical appliance |                       >8.8                        | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
+| Arista Networks | Analytics Node for DANZ Monitoring Fabric (formerly Big Monitoring Fabric) |                      >7.0.0                       | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
+| Arista Networks | Analytics Node for Converged Cloud Fabric (formerly Big Cloud Fabric) |                      >7.0.0                       | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
+| Arista Networks | Embedded Analytics for Converged Cloud Fabric (formerly Big Cloud Fabric) |                      >5.3.0                       | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
+| Arista Networks | CloudVision Portal |                     >2019.1.0                     | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
+| Arista Networks | CloudVision Wi-Fi, virtual appliance or physical appliance |                       >8.8                        | Vulnerable | | [source](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |
+| Atlassian     | Bamboo Server & Data Center |                      On prem                      | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
+| Atlassian     | BitBucket Server |                      On prem                      | Workaround | | [source](https://community.atlassian.com/t5/Bamboo-questions/Re-log4j-zero-day/qaq-p/1886739/comment-id/30819#M30819)
+| Atlassian     | Confluence Server & Data Center|                      On prem                      | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
+| Atlassian     | Crowd Server & Data Center |                      On prem                      | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
+| Atlassian     | Crucible |                      On prem                      | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
+| Atlassian     | Fisheye |                      On prem                      | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
+| Atlassian     | Jira Server & Data Center |                      On prem                      | Vulnerable | Only vulnerable when using non-default config, cloud version fixed |[source](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) |
+| Avaya         | |                                                   | | | [source](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) |
 | AVM           | all products | devices, firmware, software incl. MyFritz Service | Not Vuln |  | [source](https://en.avm.de/service/current-security-notifications/) |
-| AXIS          | AXIS OS | All versions | Not Vuln | | [source](https://help.axis.com/axis-os) |
+| AXIS          | AXIS OS |                   All versions                    | Not Vuln | | [source](https://help.axis.com/axis-os) |
 
 ### B
 
